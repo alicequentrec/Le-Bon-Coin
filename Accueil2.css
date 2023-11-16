@@ -1,0 +1,75 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  body{
+    background: linear-gradient(to left, #ffffff, #b803be);
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: #8a068f;
+    border-radius: 10px;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  form p {
+    margin: 10px 0;
+  }
+  
+  .bouton{
+    position: relative;
+    left: 1200px;
+    top: -20px;
+  }
+  
+  .box {
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #87CEEB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .recherche{
+    position:relative;
+    top: 50px;
+    left: 630px;
+  }
+
+  .profil{
+    position: relative;
+    top: -50px;
+  }
+  
+  input[type="submit"] {
+    background-color: #483D8B;
+    border: 20px;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="submit"]:active {
+    text-align: center;
+    background-color: #1e4121;
+  }

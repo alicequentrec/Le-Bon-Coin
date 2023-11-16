@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    background-color: rgb(205, 227, 255);
+}
+
+.container{
+    background-color: rgb(243, 185, 13);
+    width: 60%;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+header h1{
+    color: white;
+    font-size: 26px;
+    letter-spacing: 3px;
+    padding: 10px 0 10px 30px;
+    border-bottom: 1px solid white;
+}
+
+.messages{
+    width: 90%;
+    height: 370px;
+    background-color: rgb(205, 227, 255);
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.message{
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid rgb(219, 218, 218);
+}
+
+.formulaire{
+    text-align: center;
+}
+
+input[type='text'], select{
+    width: 43%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(205, 227, 255);
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 8px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    background-color: rgb(113, 197, 225);
+    width: 30%;
+  }
+
+  input[type=submit]{
+    width: 90%;
+    height: 25px;
+    margin-top: 10px;
+    background-color: rgb(205, 227, 255);
+    border-radius: 7px;
+  }
+
+  input[type=submit]:hover{
+    background-color: rgb(162, 200, 250);
+  }
+
+  h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  table{
+    width: 50%;
+    border: 1px solid blue;
+    margin: 50px auto;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  th{
+    background-color: rgb(169, 204, 249);
+    height: 25px;
+  }
+
+  tr, td{
+    /* border: 1px solid blue; */
+    padding: 5px;
+    
+  }
